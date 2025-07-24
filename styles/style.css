@@ -52,7 +52,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     max-width: 1140px;
-    height: 460px;
+    height: 470px;
     margin: 7.5rem auto;
     border: 2px solid peru;
 }
@@ -65,6 +65,10 @@ nav ul li a{
 }
 .banner-sub-title{
     font-size: 1.3rem;
+}
+.banner-img{
+    width: 570px;
+    height: 355px;
 }
 
 /* MAIN */
@@ -107,5 +111,30 @@ nav ul li a{
     }
 
     /* Banner section responsive */
-    
+    .banner-container{
+    flex-direction: column-reverse;
+    /* max-width:360px; */
+    max-width:360px;
+    border: 2px solid peru;
+    height: auto;
+    margin-top: 1.7rem;
+    }
+
+    .banner-title{
+        max-width: 360px;
+        height: 147px;
+        gap: 0.8rem;
+    }
+    .banner-title-text{
+    font-size:1.5rem ;
+    font-weight: 700;
+    }
+    .banner-sub-title{
+    font-size: 0.8rem;
+    }
+    .banner-img{
+        /* max-width:360px; */
+        max-width:360px;
+        height: 245px;
+    }
 }
