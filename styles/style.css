@@ -78,7 +78,7 @@ nav ul li a{
     max-width: 1140px;
     height: auto;
     border: 2px solid blue;
-    margin: 7.5rem auto;
+    margin: 0.5rem auto;
 }
 .our-plants-tittle-text{
     text-align: center;
@@ -90,6 +90,43 @@ nav ul li a{
 }
 .our-plants-subtitle{
     font-size: 1.3rem;
+}
+
+/* Flower Card section styles */
+
+.card-container{
+    max-width: 1140px;
+    margin:3.1rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.8rem;
+    column-gap:1.2rem ;
+
+}
+.card-subcontainer{
+    border: 1px solid brown;
+    max-width: 270px;
+    height: 485px;
+}
+.card-image{
+    width: 100%;
+    height: 320px;
+}
+.card-title{
+    font-size:1.3rem ;
+    font-weight: 500;
+    text-align: center;
+}
+.card-price{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card-btn{
+    width:270px ;
+    height:50px ;
+    background:#E95A08 ;
+    color:#FFFFFF ;
 }
 
 
@@ -164,6 +201,42 @@ nav ul li a{
     border: 2px solid blue;
     margin: 0.5rem auto;
     }
+
+    /* Flower Card section responsive */
+    .card-container{
+    max-width: 360px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.7rem;
+    column-gap:1.2rem ;
+    }
+    .card-subcontainer{
+    border: 1px solid brown;
+    max-width: 168px;
+    height: 335px;
+    }
+
+    .card-image{
+    width: 168px;
+    height: 190px;
+}
+.card-title{
+    font-size:1rem ;
+    font-weight: 500;
+    text-align: center;
+}
+.card-price{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card-btn{
+    width:168px ;
+    height:50px ;
+    background:#E95A08 ;
+    color:#FFFFFF ;
+}
 
 
 
