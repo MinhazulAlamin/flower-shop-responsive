@@ -129,6 +129,50 @@ nav ul li a{
     color:#FFFFFF ;
 }
 
+/* flower lover section style */
+
+.flower-lover-container-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    height: 600px;
+    border: 2px solid blue;
+    margin: 13rem auto;
+    gap:3.75rem ;
+}
+.flower-image-content{
+    position: relative;
+}
+.flower-badge{
+    position: absolute;
+    top:-125px ;
+    right: -90px ;
+    width: 280px;
+    height: 280px;  
+}
+.flower-store-image{
+    max-width: 540px;
+    height: 595px;
+    background-image: linear-gradient(rgba(103, 171, 234, 0.4));
+}
+.flower-lover-title-container{
+    display: flex;
+    flex-direction:column;
+    max-width: 540px;
+    height: 520px;
+}
+.flower-lover-title{
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.flower-article-text{
+    margin: 1.25rem;
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 
@@ -237,6 +281,10 @@ nav ul li a{
     background:#E95A08 ;
     color:#FFFFFF ;
 }
+
+/* flower lover section responsive */
+
+
 
 
 
