@@ -173,6 +173,87 @@ nav ul li a{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Latest Deal Section styes */
+.latest-deal-title-main{
+    border: 2px solid greenyellow;
+    margin: 7rem auto;
+    text-align: center;
+}
+.latest-deal-title-text{
+    font-size:3.1rem ;
+    font-weight: 700;
+}
+#latest{
+    color: #E95A08;
+}
+.latest-deal-article{
+    font-size: 1.35rem;
+}
+
+
+/* grid card styles */
+
+.plant-price-offer-main{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin:0 auto;
+    margin-top: 40px;
+    border:2px solid red; 
+}
+
+.latest-image-container{
+    position: relative;
+}
+.latest-image{
+    border-radius: 1rem;
+}
+.off-container{
+    position: absolute;
+    top:60px;
+    left:75px;
+    text-align: center;
+}
+.offer-price, .offer-btn{
+    color: #FFFFFF;
+    font-size:1.25rem ;
+    font-weight:700 ;
+}
+
+
+.offer-price-last{
+    position:relative;
+    left:200px;
+    top: 100px;
+}
+.offer-btn-last{
+    position: relative;
+    left: 200px;
+    top:100px;
+}
+
+
+.plant-price-offer-main .latest-image-container:nth-child(1) {
+    grid-column: 1 / 2; 
+    grid-row: 1 / 2;    
+}
+
+.plant-price-offer-main .latest-image-container:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;    
+}
+
+.plant-price-offer-main .latest-image-container:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;   
+}
+
+
+
+
+
 
 
 
@@ -194,7 +275,7 @@ nav ul li a{
 
 /* responsive for mobile device */
 @media screen and (max-width:576px) {
-    
+
     /* navbar responsive */
     .nav-li{
         display: none;
@@ -283,6 +364,96 @@ nav ul li a{
 }
 
 /* flower lover section responsive */
+.flower-badge{
+    display: none;
+}
+.flower-lover-container-main{
+    flex-direction: column;
+    max-width: 360px;
+    height: 680px;
+    margin: 2.5rem auto;
+    gap: 1rem;
+    justify-content: left;
+}
+.flower-store-img{
+    max-width: 358px;
+    height: 395px;
+    margin: 0;
+}
+.flower-lover-title-container{
+    display: flex;
+    flex-direction:column;
+    max-width: 358px;
+    height: 235px;
+}
+.flower-lover-article{
+    padding-left: 0px;
+    margin: 0 auto;
+}
+.flower-lover-title{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.flower-article-text{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Latest Deal Section responsive */
+.plant-price-offer-main{
+    grid-template-columns:1fr;
+    grid-template-rows: auto;
+    gap:0.8rem;
+    border: 2px solid blue;
+    max-width:360px;
+    margin: 0 auto;
+   
+}
+
+.latest-deal-title{
+    width:90%;
+}
+
+.latest-image{
+    width:100%; 
+}
+
+  .plant-price-offer-main .latest-image-container:nth-child(1),
+  .plant-price-offer-main .latest-image-container:nth-child(2),
+  .plant-price-offer-main .latest-image-container:nth-child(3) {
+    grid-column: auto; 
+    grid-row: auto; 
+   
+  }
+
+.offer-price {
+    font-size: 1.4rem;
+  }
+  .offer-btn {
+    font-size: 1rem;
+  }
+.plant-price-offer-main .latest-image-container {
+     grid-column: auto; 
+     grid-row: auto;    
+     height: 250px;     
+  }
+  .last-cnt{
+    position: relative;
+  }
+.offer-price-last{
+    position:relative;
+    left:-50px;
+    top: -200px;
+}
+.offer-btn-last{
+    left:-50px;
+    top: -200px;
+}
+
 
 
 
