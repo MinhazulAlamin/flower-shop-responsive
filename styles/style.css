@@ -11,3 +11,61 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f8ff;
+}
+
+/* nav section styles */
+nav{
+    max-width: 1140px;
+    height: 71px;
+    margin: 1.8rem auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1.8rem auto;
+    border: 2px solid red;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#cart-icon{
+    gap: 0.6rem;
+}
+.nav-ul{
+    display: flex;
+    gap:3rem;
+    padding: 1.1rem;
+    align-items: center;
+}
+
+
+
+
+
+
+/* responsive for mobile device */
+@media screen and (max-width:576px) {
+    
+    /* navbar responsive */
+    .nav-li{
+        display: none;
+    }
+    nav{
+    max-width: 361px;
+    /* height: 38px; */
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1.8rem auto; */
+    border: 1px solid red;
+    }
+}
