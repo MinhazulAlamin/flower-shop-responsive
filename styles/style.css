@@ -250,6 +250,51 @@ nav ul li a{
     grid-row: 1 / 3;   
 }
 
+/* Join section styles */
+.colorful-bunch-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+}
+.join-section-main{
+    max-width: 1400px;
+    height: 540px;
+    margin:0 auto;
+    margin-top: 7rem;
+    position: relative;
+}
+.form-section{
+    /* border: 2px solid rgb(7, 247, 59);  */
+    text-align: center;
+    margin-top:200px;
+    margin-left:305px;
+    position: absolute;
+}
+.color-title{
+ font-size: 3.1rem;
+ font-weight: 700;
+ color:white;
+ /* border: 2px solid red;  */
+ text-align: center;
+ display: inline-block;
+ margin-left: 50px;
+}
+.email-input{
+    width: 645px;
+    height:55px;
+    position: relative;
+    padding:0 10px;
+    /* margin-bottom: 150px; */
+}
+.subscribe-btn{
+    background-color:#E95A08;
+    width: 185px;
+    height: 57px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
 
 
 
@@ -453,6 +498,107 @@ nav ul li a{
     left:-50px;
     top: -200px;
 }
+
+
+/* join section responsive */
+
+/*
+.colorful-bunch-section{
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+}
+
+.join-section-main{
+    max-width:393px;
+    height: 276px;
+    margin:0 auto;
+    margin-top: 2.8rem;
+    position: relative;
+}
+.form-section{
+    border: 2px solid rgb(7, 247, 59);
+    text-align: center;
+    /* margin-top:200px;
+    margin-left:305px; */
+    /*
+    position: absolute;
+}
+
+
+
+.color-title{
+ font-size:1.25rem;
+ font-weight: 700;
+ color:white;
+  border: 2px solid red;
+ text-align: center;
+ display: inline-block;
+ margin-left: 0px;
+ padding: 0px 43px;
+}
+
+.email-input{
+    width: 218px;
+    height:55px;
+    position: relative;
+    padding:8 20px;
+}
+
+.subscribe-btn{
+    background-color:#E95A08;
+    width: 100px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+*/
+    .join-section-main{
+   max-width:360px;
+   height: 270px;
+   border: 2px solid red; 
+   background-size: cover;
+   margin-top: 50px;
+
+}
+
+.colorful-bunch-section{
+    width:100%;
+    height: 100%;
+    
+}
+
+.color-title{
+    font-size: 1.25rem;
+    margin-right: 9.3rem;
+}
+
+.form-section{
+    position: absolute;
+    margin-top:50px;
+    margin-left: 50px;
+}
+
+.email-input{
+    max-width:218px;
+    height: 50px;
+    margin-right:90px;
+}
+
+.subscribe-btn{
+    max-width: 103px;
+    margin-right:50px;
+    position: absolute;
+    right:1px;
+}
+
+
+
+
+
+
 
 
 
