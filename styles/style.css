@@ -74,6 +74,24 @@ nav ul li a{
 /* MAIN */
 
 /* Our Plant section style */
+.our-plants-title{
+    max-width: 1140px;
+    height: auto;
+    border: 2px solid blue;
+    margin: 7.5rem auto;
+}
+.our-plants-tittle-text{
+    text-align: center;
+    font-size:3rem;
+    font-weight: 700;
+}
+#plants-our{
+    color:  #E95A08;
+}
+.our-plants-subtitle{
+    font-size: 1.3rem;
+}
+
 
 
 
@@ -118,6 +136,7 @@ nav ul li a{
     border: 2px solid peru;
     height: auto;
     margin-top: 1.7rem;
+    margin-bottom: 1rem;
     }
 
     .banner-title{
@@ -137,4 +156,15 @@ nav ul li a{
         max-width:360px;
         height: 245px;
     }
+
+    /* our plants section responsive */
+    .our-plants-title{
+    max-width: 360px;
+    height: auto;
+    border: 2px solid blue;
+    margin: 0.5rem auto;
+    }
+
+
+
 }
