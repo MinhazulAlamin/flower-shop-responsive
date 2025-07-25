@@ -208,6 +208,7 @@ nav ul li a{
 }
 .latest-image{
     border-radius: 1rem;
+    filter: brightness(0.6);
 }
 .off-container{
     position: absolute;
@@ -327,10 +328,7 @@ nav ul li a{
     justify-content: center;
     gap:1.5rem;
 }
-.footer-social-image{
-    /* width: 36px;
-    height: 36px; */
-}
+
 
 
 
