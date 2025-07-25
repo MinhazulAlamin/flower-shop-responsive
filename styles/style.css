@@ -297,6 +297,49 @@ nav ul li a{
 }
 
 
+/* footer section styles */
+
+.footer-container{
+    max-width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 3.1rem;
+}
+.footer-subcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    max-width: 135px;
+    height: 85px;
+}
+.footer-text{
+    max-width: 360px;
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.list-container{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5rem;
+}
+.footer-a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+    
+}
+.footer-social-image{
+    /* width: 36px;
+    height: 36px; */
+}
+
+
 
 
 
@@ -320,7 +363,7 @@ nav ul li a{
 
 /* responsive for mobile device */
 @media screen and (max-width:576px) {
-
+    
     /* navbar responsive */
     .nav-li{
         display: none;
@@ -449,6 +492,11 @@ nav ul li a{
 
 
 /* Latest Deal Section responsive */
+
+.latest-deal-title-main{
+    max-width: 360px;
+}
+
 .plant-price-offer-main{
     grid-template-columns:1fr;
     grid-template-rows: auto;
@@ -594,6 +642,32 @@ nav ul li a{
     right:1px;
 }
 
+/* footer section responsive */
+
+.footer-container{
+    max-width:360px;
+    height:760px ;
+}
+.footer-subcontainer{
+    flex-direction: column;
+}
+.footer-title-section{
+    gap: 1fr;
+}
+.footer-logo{
+    width: 180px;
+}
+.footer-text{
+    max-width:358px;
+}
+
+.list-container{
+    grid-template-columns: 1fr;
+    margin-top: 0rem;
+    height: 496px;
+    margin-bottom: 0px;
+    /* justify-content: left; */
+}
 
 
 
