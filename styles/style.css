@@ -341,6 +341,13 @@ nav ul li a{
 /* responsive for mobile device */
 
 @media screen and (max-width:576px) {
+
+    /* horizontal scrolling fix */
+    *{
+        overflow-x: hidden;
+    }
+
+    
     
     /* navbar responsive */
     .nav-li{
