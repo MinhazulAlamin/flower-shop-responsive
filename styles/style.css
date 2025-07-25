@@ -90,6 +90,7 @@ nav ul li a{
 }
 .our-plants-subtitle{
     font-size: 1.3rem;
+    text-align: center;
 }
 
 /* Flower Card section styles */
@@ -379,7 +380,7 @@ nav ul li a{
     gap: 0.8rem;
     }
     .banner-title-text{
-    font-size:1.5rem ;
+    font-size:1.5rem;
     font-weight: 700;
     }
     .banner-sub-title{
