@@ -363,6 +363,10 @@ nav ul li a{
     justify-content: space-between;
     /* padding: 1.8rem auto; */
     }
+    .nav-ul{
+        padding: 0;
+        padding-top: 1rem;
+    }
 
     /* Banner section responsive */
 
@@ -401,6 +405,10 @@ nav ul li a{
     }
 
     /* Flower Card section responsive */
+    .card-hide{
+        display: none;
+    }
+
     .card-container{
     max-width: 360px;
     margin:0 auto;
